@@ -1,7 +1,11 @@
 const Intro = () => {
   return (
     <>
-      <div className="w-full text-start text-xl text-blue-400 font-medium mb-2">
+      <div
+        className="w-full text-start text-xl text-blue-400 font-medium mb-2"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         A Bit About Me
       </div>
       <span className="pr-1" data-aos="fade-up" data-aos-delay="100">

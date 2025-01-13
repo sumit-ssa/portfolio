@@ -3,7 +3,6 @@ export interface HireButtonProps {
     link: string;
 }
 
-// export interface TechProps {
-//     icon: string;
-//     name: string;
-// }
+export interface SectionTitleProps {
+    title: string;
+}

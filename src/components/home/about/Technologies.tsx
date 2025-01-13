@@ -3,7 +3,11 @@ import { TechnologiesData } from "@/constant";
 const Technologies = () => {
   return (
     <>
-      <div className="w-full text-start text-xl text-blue-400 font-medium mt-8">
+      <div
+        className="w-full text-start text-xl text-blue-400 font-medium mt-8"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         Technologies and Tools
       </div>
       <div className="w-full grid grid-cols-2 xl:grid-cols-5 gap-4 mt-4">
