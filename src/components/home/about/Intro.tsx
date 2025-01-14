@@ -18,7 +18,7 @@ const Intro = () => {
         front-end developer
       </span>
       <span className="pr-1" data-aos="fade-up" data-aos-delay="250">
-        with 3+ years
+        with 4+ years
       </span>
       <span className="pr-1" data-aos="fade-up" data-aos-delay="300">
         of professional

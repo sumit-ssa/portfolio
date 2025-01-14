@@ -3,6 +3,8 @@ import universityLogo1 from '../../public/PTRSU_logo.png'
 import universityLogo2 from '../../public/kalinga.png'
 import ssaLogo from '../../public/ssa_logo.png'
 import xhitizLogo from '../../public/xhitizLogo.png'
+import mtt from '../../public/projects/mtt.webp'
+import ssa from '../../public/projects/ssa.png'
 
 export const SocialLinksData = [
     {
@@ -65,12 +67,15 @@ export const ExperienceData = [
         id: 1,
         logo: ssaLogo,
         name: "Social Seller Technologies",
-        course: "Senior Frontend Developer",
+        course: "Senior Frontend Developer || Team Leader",
         location: "Raipur, Chhattisgarh, India",
         showRightSide: true,
         startDate: "October 2022",
         endDate: "Present",
-        duration: "2 Years 3 Months"
+        duration: "2 Years 3 Months",
+        info: `As a technical leader & Senior Frontend Developer, I orchestrated the design and development of mission-critical bidding systems, encompassing robust back-end, 
+        front-end, and mobile applications. My strategic oversight ensured seamless functionality and high performance across all platforms. 
+        I led and mentored a high-performing team through various complex software development projects, aligning our technical to consistently delivering high-quality solutions.`
     },
     {
         id: 2,
@@ -81,7 +86,9 @@ export const ExperienceData = [
         showRightSide: true,
         startDate: "March 2020",
         endDate: "February 2022",
-        duration: "2 Years"
+        duration: "2 Years",
+        info: "Worked on analysing the design, development and maintenance work for a websites."
+
     },
     {
         id: 3,
@@ -92,6 +99,34 @@ export const ExperienceData = [
         showRightSide: true,
         startDate: "September 2019",
         endDate: "February 2020",
-        duration: "6 Months"
+        duration: "6 Months",
+        info: "Worked on development of verious websites."
     },
+]
+
+export const ProjectsData = [
+    {
+        id: 1,
+        title: "Multi-Tenant Website Builder",
+        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical expertise",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: mtt,
+    },
+    {
+        id: 2,
+        title: "Social Seller Technologies Website",
+        description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India.",
+        technologies: [
+            { id: "react", name: "React" },
+            { id: "next", name: "Next.js" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "framer", name: "Framer Motion" }
+        ],
+        imageUrl: ssa,
+    }
 ]

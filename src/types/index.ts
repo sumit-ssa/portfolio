@@ -18,5 +18,18 @@ export interface ProfileProps {
     startDate?: string;
     endDate?: string;
     duration?: string;
-    showRightSide: boolean
+    showRightSide: boolean,
+    info: string;
+}
+
+export interface Technology {
+    name: string;
+}
+
+export interface ProjectCardProps {
+    id: number;
+    title: string;
+    technologies: Technology[];
+    description: string;
+    imageUrl: StaticImageData;
 }
