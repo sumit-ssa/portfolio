@@ -18,8 +18,8 @@ export interface ProfileProps {
     startDate?: string;
     endDate?: string;
     duration?: string;
-    showRightSide: boolean,
-    info: string;
+    showRightSide?: boolean,
+    info?: string;
 }
 
 export interface Technology {
