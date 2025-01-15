@@ -32,4 +32,5 @@ export interface ProjectCardProps {
     technologies: Technology[];
     description: string;
     imageUrl: StaticImageData;
+    url: string;
 }

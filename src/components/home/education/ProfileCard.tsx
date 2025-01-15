@@ -19,7 +19,7 @@ const ProfileCard = ({ data }: { data: ProfileProps }) => {
       data-aos-delay="300"
       onClick={infoHandler}
     >
-      <div className={`w-full flex items-start gap-4`}>
+      <div className={`w-full flex items-center gap-4`}>
         <div className="flex-shrink-0">
           <Image
             src={data?.logo}

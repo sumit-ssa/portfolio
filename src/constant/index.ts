@@ -3,8 +3,9 @@ import universityLogo1 from '../../public/PTRSU_logo.png'
 import universityLogo2 from '../../public/kalinga.png'
 import ssaLogo from '../../public/ssa_logo.png'
 import xhitizLogo from '../../public/xhitizLogo.png'
-import mtt from '../../public/projects/mtt.webp'
+import mtt from '../../public/projects/mtt.png'
 import ssa from '../../public/projects/ssa.png'
+import logistics from '../../public/projects/logistics.png'
 
 export const SocialLinksData = [
     {
@@ -116,11 +117,12 @@ export const ProjectsData = [
             { id: "axios", name: "Axios" }
         ],
         imageUrl: mtt,
+        url: "https://sumit.socialseller.in/"
     },
     {
         id: 2,
         title: "Social Seller Technologies Website",
-        description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India.",
+        description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India. This website is entry point of websites builter",
         technologies: [
             { id: "react", name: "React" },
             { id: "next", name: "Next.js" },
@@ -128,5 +130,19 @@ export const ProjectsData = [
             { id: "framer", name: "Framer Motion" }
         ],
         imageUrl: ssa,
+        url: "https://socialseller.in/"
+    },
+    {
+        id: 3,
+        title: "XLogistics Website",
+        description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
+        technologies: [
+            { id: "bootstrap", name: "Bootstrap" },
+            { id: "javascript", name: "Javascript" },
+            { id: "php", name: "PHP" },
+            { id: "laravel", name: "Laravel" },
+        ],
+        imageUrl: logistics,
+        url: "https://demo.devops.xhitiz.com/xlogistics/"
     }
 ]
