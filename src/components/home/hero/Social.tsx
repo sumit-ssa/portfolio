@@ -2,7 +2,7 @@ import { SocialLinksData } from "@/constant";
 
 const Social = () => {
   return (
-    <div className="w-full flex items-center justify-around">
+    <div className="flex items-center gap-16 justify-around">
       {SocialLinksData?.map((data, i) => {
         const Icon = data?.Icon;
         const duration = 300 * (i + 1);

@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 import universityLogo1 from '../../public/PTRSU_logo.png'
 import universityLogo2 from '../../public/kalinga.png'
 import ssaLogo from '../../public/ssa_logo.png'
@@ -6,6 +6,7 @@ import xhitizLogo from '../../public/xhitizLogo.png'
 import mtt from '../../public/projects/mtt.png'
 import ssa from '../../public/projects/ssa.png'
 import logistics from '../../public/projects/logistics.png'
+import vilki from '../../public/projects/vilki.png'
 
 export const SocialLinksData = [
     {
@@ -35,8 +36,8 @@ export const TechnologiesData = [
     { icon: "devicon-javascript-plain", name: "Javascript" },
     { icon: "devicon-typescript-plain", name: "Typescript" },
     { icon: "devicon-react-original", name: "React JS" },
-    { icon: "devicon-nextjs-original-wordmark bg-white", name: "Next JS" },
-    { icon: "devicon-github-original bg-white", name: "Github" },
+    { icon: "devicon-nextjs-plain bg-white", name: "Next JS" },
+    { icon: "devicon-github-original bg-white ", name: "Github" },
     { icon: "devicon-postman-plain", name: "Postman" },
     { icon: "devicon-vercel-original bg-white", name: "Vercel" },
     { icon: "devicon-figma-plain", name: "Figma" },
@@ -134,6 +135,19 @@ export const ProjectsData = [
     },
     {
         id: 3,
+        title: "Vilki Medicart",
+        description: "A billing software platform designed to streamline B2B transactions for both retailers and wholesalers. Transforming Pharmaceutical Sector Across Bharat",
+        technologies: [
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" },
+            { id: "Redux", name: "Redux" }
+        ],
+        imageUrl: vilki,
+        url: "https://demo.devops.xhitiz.com/xlogistics/"
+    },
+    {
+        id: 4,
         title: "XLogistics Website",
         description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
         technologies: [
@@ -144,5 +158,24 @@ export const ProjectsData = [
         ],
         imageUrl: logistics,
         url: "https://demo.devops.xhitiz.com/xlogistics/"
-    }
+    },
+]
+
+export const ContactData = [
+    {
+        Icon: Linkedin,
+        link: "https://www.linkedin.com/in/sumit-verma-07835a210/",
+        title: "LinkedIn"
+
+    },
+    {
+        Icon: Phone,
+        link: "tel:7999001618",
+        title: "7999001618"
+    },
+    {
+        Icon: Mail,
+        link: "mailto:sumeet0604.sv@gmail.com",
+        title: "sumeet0604.sv@gmail.com"
+    },
 ]

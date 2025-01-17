@@ -79,7 +79,7 @@ html {
 .hire-button {
   outline: 0;
   background: transparent;
-  border: 1px solid #916bbf;
+  border: 1px solid #4b80c2;
   border-radius: 5px;
   color: #f6ccef;
   margin-top: 10px;
@@ -120,3 +120,57 @@ html {
 }
 
 /* hire button end */
+
+/* cv flip start */
+
+/* From Uiverse.io by Philippcmd */
+.button-icon {
+  display: flex;
+  border: 3px #4b4949 solid;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 10px 10px 13px 10px;
+}
+
+.cube {
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  width: 175px;
+  height: 20px;
+}
+
+.button-icon:hover .cube {
+  transform: rotateX(90deg);
+}
+
+.side {
+  position: absolute;
+  height: 47px;
+  width: 175px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.top {
+  background: #222229;
+  color: #fff;
+  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  transform: translate3d(0, 0, 1em);
+}
+
+/* cv flip end */

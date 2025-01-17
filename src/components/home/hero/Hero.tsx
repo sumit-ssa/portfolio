@@ -1,10 +1,11 @@
 "use client";
 
-import { HireButtons } from "@/components/ui/Buttons";
+// import { HireButtons } from "@/components/ui/Buttons";
 import Details from "./Details";
 import Name from "./Name";
 import TypingAnimation from "./TypeAnimation";
 import Social from "./Social";
+import { FileText } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -14,17 +15,26 @@ const Hero = () => {
         <TypingAnimation />
         <Details />
         <div className="flex  items-center gap-4 text-gray-500">
-          <span data-aos="fade-up" data-aos-delay="300">
+          {/* <span data-aos="fade-up" data-aos-delay="300">
             <HireButtons title={"Hire Me"} link={"#contact"} />
-          </span>
-          <span data-aos="fade-up" data-aos-delay="400">
-            <HireButtons
+          </span> */}
+          {/* <span data-aos="fade-up" data-aos-delay="400"> */}
+          {/* <HireButtons
               title={"View Resume"}
               link={
                 "https://drive.google.com/file/d/1eKJA3oZC1tHNvVvT3WhlB11t006ahHSv/view?usp=drive_link"
               }
-            />
-          </span>
+            /> */}
+          <div className="button-icon" data-aos="fade-up" data-aos-delay="400">
+            <div className="icon">
+              <FileText className="text-blue-400" />
+            </div>
+            <div className="cube">
+              <span className="side front">Read CV!</span>
+              <span className="side top">Click Here</span>
+            </div>
+          </div>
+          {/* </span> */}
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import { ProjectCardProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
+import { TechBadge } from "./Badges";
 
 export default function ProjectCard({ data }: { data: ProjectCardProps }) {
   return (
@@ -17,19 +18,14 @@ export default function ProjectCard({ data }: { data: ProjectCardProps }) {
         />
       </div>
 
-      <div className="w-full py-2 px-2 xl:px-4  space-y-4">
+      <div className="w-full py-2 px-2 xl:px-4 xl:py-3  space-y-4">
         <div className="space-y-2">
           <h2 className="text-2xl font-semibold">{data?.title}</h2>
         </div>
 
         <div className="flex flex-wrap gap-2">
           {data?.technologies.map((tech, i) => (
-            <span
-              key={i}
-              className="px-3 py-1 text-sm rounded-full bg-zinc-800 text-zinc-300 transition-colors hover:bg-zinc-500"
-            >
-              {tech.name}
-            </span>
+            <TechBadge key={i} data={tech?.name} />
           ))}
         </div>
 
