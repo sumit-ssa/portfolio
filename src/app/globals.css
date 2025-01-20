@@ -126,7 +126,8 @@ html {
 /* From Uiverse.io by Philippcmd */
 .button-icon {
   display: flex;
-  border: 3px #4b4949 solid;
+  /* align-items: center; */
+  /* border: 3px #4b4949 solid; */
   width: fit-content;
   height: fit-content;
   cursor: pointer;
@@ -135,13 +136,14 @@ html {
 .icon {
   background-color: #fff;
   padding: 10px 10px 13px 10px;
+  height: 50px;
 }
 
 .cube {
   transition: all 0.4s;
   transform-style: preserve-3d;
   width: 175px;
-  height: 20px;
+  height: 50px;
 }
 
 .button-icon:hover .cube {
@@ -150,7 +152,7 @@ html {
 
 .side {
   position: absolute;
-  height: 47px;
+  height: 50px;
   width: 175px;
   display: flex;
   font-size: 0.8em;
@@ -164,7 +166,7 @@ html {
 .top {
   background: #222229;
   color: #fff;
-  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  transform: rotateX(-90deg) translate3d(0, 0, 2em);
 }
 
 .front {
