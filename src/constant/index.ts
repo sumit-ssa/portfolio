@@ -47,7 +47,7 @@ export const TechnologiesData = [
 
 export const EducationData = [
     {
-        id: 2,
+        id: 1,
         logo: universityLogo2,
         name: "Kalinga University",
         course: "Master of Compluter Application",
@@ -55,7 +55,7 @@ export const EducationData = [
         showRightSide: false
     },
     {
-        id: 1,
+        id: 2,
         logo: universityLogo1,
         name: "Pt. Ravishankar Shukla University",
         course: "Bachelor of Compluter Application",
@@ -69,18 +69,32 @@ export const ExperienceData = [
         id: 1,
         logo: ssaLogo,
         name: "Social Seller Technologies",
-        course: "Senior Frontend Developer || Team Leader",
+        course: "Team Leader",
         location: "Raipur, Chhattisgarh, India",
         showRightSide: true,
-        startDate: "October 2022",
+        startDate: "July 2024",
         endDate: "Present",
-        duration: "2 Years 3 Months",
+        // duration: "6 Months",
         info: `As a technical leader & Senior Frontend Developer, I orchestrated the design and development of mission-critical bidding systems, encompassing robust back-end, 
         front-end, and mobile applications. My strategic oversight ensured seamless functionality and high performance across all platforms. 
         I led and mentored a high-performing team through various complex software development projects, aligning our technical to consistently delivering high-quality solutions.`
     },
     {
         id: 2,
+        logo: ssaLogo,
+        name: "Social Seller Technologies",
+        course: "Senior Frontend Developer",
+        location: "Raipur, Chhattisgarh, India",
+        showRightSide: true,
+        startDate: "October 2022",
+        endDate: "July 2024",
+        duration: "1 Year 9 Months",
+        info: `As a Senior Front-End Developer with over 2 years of experience, I specialize in building scalable, 
+        high-performance web applications with a strong focus on user experience. I have a proven track record of leading development teams, 
+        driving projects from ideation to production, and ensuring the seamless integration of design and functionality. My expertise includes developing modern web applications using cutting-edge technologies, optimizing front-end performance, and maintaining code quality through best practices.`
+    },
+    {
+        id: 3,
         logo: xhitizLogo,
         name: "Xhitiz IT Solutions",
         course: "Junior Frontend Developer",
@@ -93,7 +107,7 @@ export const ExperienceData = [
 
     },
     {
-        id: 3,
+        id: 4,
         logo: xhitizLogo,
         name: "Xhitiz IT Solutions",
         course: "Internship",
@@ -177,5 +191,56 @@ export const ContactData = [
         Icon: Mail,
         link: "mailto:sumeet0604.sv@gmail.com",
         title: "sumeet0604.sv@gmail.com"
+    },
+]
+
+export const WorkData = [
+    {
+        id: 1,
+        name: "Social Seller Technologies",
+        designation: "Team Leader",
+        location: "Raipur, Chhattisgarh, India",
+        startDate: "2024",
+        endDate: "Present",
+    },
+    {
+        id: 2,
+        name: "Social Seller Technologies",
+        designation: "Senior Frontend Developer",
+        location: "Raipur, Chhattisgarh, India",
+        startDate: "2022",
+        endDate: "2024",
+    },
+    {
+        id: 3,
+        name: "Xhitiz IT Solutions",
+        designation: "Junior Frontend Developer",
+        location: "Raipur, Chhattisgarh, India",
+        startDate: "2021",
+        endDate: "2022",
+    },
+    {
+        id: 4,
+        name: "Xhitiz IT Solutions",
+        designation: "Internship",
+        location: "Raipur, Chhattisgarh, India",
+        startDate: "2019",
+        endDate: "2020",
+    },
+]
+
+export const StudyData = [
+    {
+        id: 1,
+        name: "Kalinga University",
+        course: "Master of Compluter Application",
+        location: "New Raipur, Chhattisgarh, India",
+    },
+    {
+        id: 2,
+        logo: universityLogo1,
+        name: "Pt. Ravishankar Shukla University",
+        course: "Bachelor of Compluter Application",
+        location: "Raipur, Chhattisgarh, India",
     },
 ]

@@ -22,6 +22,15 @@ export interface ProfileProps {
     info?: string;
 }
 
+export interface WorkProps {
+    id: number,
+    name: string,
+    designation: string,
+    startDate: string,
+    endDate: string,
+    location: string
+}
+
 export interface Technology {
     name: string;
 }
@@ -33,4 +42,11 @@ export interface ProjectCardProps {
     description: string;
     imageUrl: StaticImageData;
     url: string;
+}
+
+export interface StudyPoprs {
+    id: number;
+    name: string;
+    course: string;
+    location: string;
 }
