@@ -75,52 +75,6 @@ html {
   }
 }
 
-/* Hire button */
-.hire-button {
-  outline: 0;
-  background: transparent;
-  border: 1px solid #4b80c2;
-  border-radius: 5px;
-  color: #f6ccef;
-  margin-top: 10px;
-  min-width: 130px;
-  padding: 8px 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  z-index: 0;
-  overflow: hidden;
-}
-
-.hire-button:hover {
-  color: #fff;
-}
-
-.hire-button:hover:after {
-  width: 100%;
-}
-
-.hire-button:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s ease;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: #3d2c8d;
-}
-
-.hire-button:active {
-  color: #1c0c5b;
-}
-
-/* hire button end */
-
 /* New Cv button start */
 
 .buttons {

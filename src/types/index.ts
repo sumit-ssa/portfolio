@@ -42,6 +42,7 @@ export interface ProjectCardProps {
     description: string;
     imageUrl: StaticImageData;
     url: string;
+    route: string;
 }
 
 export interface StudyPoprs {

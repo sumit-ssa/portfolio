@@ -1,20 +1,25 @@
 import { ProjectCardProps } from "@/types";
 import Image from "next/image";
-import Link from "next/link";
 import { TechBadge } from "./Badges";
+import { useRouter } from "next/navigation";
 
 export default function ProjectCard({ data }: { data: ProjectCardProps }) {
+  const router = useRouter();
+
+  const routeHandler = (name: string) => {
+    router.push(`/projects/${name}`);
+  };
+
   return (
-    <Link
-      href={data?.url}
-      target="_blank"
+    <div
       className="w-full min-h-[200px] flex flex-col xl:flex-row group rounded-lg border border-gray-600 hover:bg-zinc-900  transition-all duration-300 text-white "
+      onClick={() => routeHandler(data.route)}
     >
       <div className="relative basis-2/3 ">
         <Image
           src={data?.imageUrl}
           alt={"imageAlt"}
-          className="object-cover h-full w-full opacity-70 group-hover:opacity-100 transition-all duration-500 "
+          className="object-cover h-full w-full opacity-70 group-hover:opacity-100 transition-all duration-500"
         />
       </div>
 
@@ -31,6 +36,6 @@ export default function ProjectCard({ data }: { data: ProjectCardProps }) {
 
         <p className="text-zinc-400 leading-relaxed">{data?.description}</p>
       </div>
-    </Link>
+    </div>
   );
 }

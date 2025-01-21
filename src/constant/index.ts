@@ -120,60 +120,7 @@ export const ExperienceData = [
     },
 ]
 
-export const ProjectsData = [
-    {
-        id: 1,
-        title: "Multi-Tenant Website Builder",
-        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical expertise",
-        technologies: [
-            { id: "js", name: "Javascript" },
-            { id: "react", name: "React" },
-            { id: "tailwind", name: "Tailwind CSS" },
-            { id: "axios", name: "Axios" }
-        ],
-        imageUrl: mtt,
-        url: "https://sumit.socialseller.in/"
-    },
-    {
-        id: 2,
-        title: "Social Seller Technologies Website",
-        description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India. This website is entry point of websites builter",
-        technologies: [
-            { id: "react", name: "React" },
-            { id: "next", name: "Next.js" },
-            { id: "tailwind", name: "Tailwind CSS" },
-            { id: "framer", name: "Framer Motion" }
-        ],
-        imageUrl: ssa,
-        url: "https://socialseller.in/"
-    },
-    {
-        id: 3,
-        title: "Vilki Medicart",
-        description: "A billing software platform designed to streamline B2B transactions for both retailers and wholesalers. Transforming Pharmaceutical Sector Across Bharat",
-        technologies: [
-            { id: "react", name: "React" },
-            { id: "tailwind", name: "Tailwind CSS" },
-            { id: "axios", name: "Axios" },
-            { id: "Redux", name: "Redux" }
-        ],
-        imageUrl: vilki,
-        url: "https://demo.devops.xhitiz.com/xlogistics/"
-    },
-    {
-        id: 4,
-        title: "XLogistics Website",
-        description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
-        technologies: [
-            { id: "bootstrap", name: "Bootstrap" },
-            { id: "javascript", name: "Javascript" },
-            { id: "php", name: "PHP" },
-            { id: "laravel", name: "Laravel" },
-        ],
-        imageUrl: logistics,
-        url: "https://demo.devops.xhitiz.com/xlogistics/"
-    },
-]
+
 
 export const ContactData = [
     {
@@ -242,5 +189,64 @@ export const StudyData = [
         name: "Pt. Ravishankar Shukla University",
         course: "Bachelor of Compluter Application",
         location: "Raipur, Chhattisgarh, India",
+    },
+]
+
+export const ProjectsData = [
+    {
+        id: 1,
+        title: "Multi-Tenant Website Builder",
+        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical expertise",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: mtt,
+        url: "https://sumit.socialseller.in/",
+        route: "multi-tenant-website-builder"
+    },
+    {
+        id: 2,
+        title: "Social Seller Technologies Website",
+        description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India. This website is entry point of websites builter",
+        technologies: [
+            { id: "react", name: "React" },
+            { id: "next", name: "Next.js" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "framer", name: "Framer Motion" }
+        ],
+        imageUrl: ssa,
+        url: "https://socialseller.in/",
+        route: "social-seller-technologies"
+    },
+    {
+        id: 3,
+        title: "Vilki Medicart",
+        description: "A billing software platform designed to streamline B2B transactions for both retailers and wholesalers. Transforming Pharmaceutical Sector Across Bharat",
+        technologies: [
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" },
+            { id: "Redux", name: "Redux" }
+        ],
+        imageUrl: vilki,
+        url: "https://demo.devops.xhitiz.com/xlogistics/",
+        route: "vilki-medicart"
+    },
+    {
+        id: 4,
+        title: "XLogistics Website",
+        description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
+        technologies: [
+            { id: "bootstrap", name: "Bootstrap" },
+            { id: "javascript", name: "Javascript" },
+            { id: "php", name: "PHP" },
+            { id: "laravel", name: "Laravel" },
+        ],
+        imageUrl: logistics,
+        url: "https://demo.devops.xhitiz.com/xlogistics/",
+        route: "x-logistics"
     },
 ]
