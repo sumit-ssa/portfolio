@@ -7,6 +7,8 @@ import mtt from '../../public/projects/mtt.png'
 import ssa from '../../public/projects/ssa.png'
 import logistics from '../../public/projects/logistics.png'
 import vilki from '../../public/projects/vilki.png'
+import happy_staff from '../../public/projects/happystaff.png'
+import infinix from '../../public/projects/infinixcrm.png'
 
 export const SocialLinksData = [
     {
@@ -248,5 +250,33 @@ export const ProjectsData = [
         imageUrl: logistics,
         url: "https://demo.devops.xhitiz.com/xlogistics/",
         route: "x-logistics"
+    },
+    {
+        id: 5,
+        title: "Happy Staff",
+        description: "Happy Staff is a smart task management app designed to boost productivity.. It combines traditional task organization features with a unique performance and coin system. Every completed task earns you coins, These coins can be redeemed via UPI",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: happy_staff,
+        url: "https://happystaff.socialseller.in/auth",
+        route: "happy-staff"
+    },
+    {
+        id: 6,
+        title: "Infinix CRM",
+        description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: infinix,
+        url: "https://infinixcrm.com/auth",
+        route: "infinix-crm"
     },
 ]

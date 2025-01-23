@@ -23,7 +23,7 @@ const Projects = () => {
 
       <div className="w-full mt-16 text-gray-400 capitalize text-start">
         <div className="w-full flex flex-col gap-10">
-          {ProjectsData?.map((data: ProjectCardProps) => (
+          {ProjectsData?.slice(0, 5)?.map((data: ProjectCardProps) => (
             <ProjectCard data={data} key={data?.id} />
           ))}
           <div className="w-full flex items-center justify-center group relative ">
