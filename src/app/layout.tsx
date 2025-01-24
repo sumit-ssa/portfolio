@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Container from "@/components/ui/Container";
+// import Container from "@/components/ui/Container";
 import "devicon/devicon.min.css";
 
 import "aos/dist/aos.css";
@@ -34,9 +34,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Container>
-          <AOSInit /> {children}
-        </Container>
+        {/* <Container> */}
+        <AOSInit /> {children}
+        {/* </Container> */}
         <Footer />
       </body>
     </html>

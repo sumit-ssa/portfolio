@@ -2,7 +2,7 @@ import { ContactData } from "@/constant";
 
 const Contact = () => {
   return (
-    <section className="w-full flex flex-col items-start gap-4 justify-start ">
+    <section className="w-full flex flex-col items-start gap-4 justify-start mb-10">
       <p className="text-3xl">Reach me out </p>
       <div className="flex flex-col items-start gap-2 ">
         {ContactData?.map((data, i) => {

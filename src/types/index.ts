@@ -43,6 +43,7 @@ export interface ProjectCardProps {
     imageUrl: StaticImageData;
     url: string;
     route: string;
+    style?: boolean;
 }
 
 export interface StudyPoprs {

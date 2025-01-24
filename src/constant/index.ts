@@ -122,8 +122,6 @@ export const ExperienceData = [
     },
 ]
 
-
-
 export const ContactData = [
     {
         Icon: Linkedin,

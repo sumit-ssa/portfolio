@@ -2,7 +2,7 @@ import { SocialLinksData } from "@/constant";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-950 mt-20">
+    <footer className="w-full bg-gray-950">
       <div className="w-full flex items-center flex-col justify-center gap-6 py-10">
         <div className="w-full flex items-center justify-center gap-10 ">
           {SocialLinksData?.map((data, i) => {

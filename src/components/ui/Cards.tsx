@@ -10,9 +10,13 @@ export default function ProjectCard({ data }: { data: ProjectCardProps }) {
     router.push(`/projects/${name}`);
   };
 
+  // console.log(data?.className);
+
   return (
     <div
-      className="w-full min-h-[200px] flex flex-col xl:flex-row group rounded-lg border border-gray-600 hover:bg-zinc-900  transition-all duration-300 text-white "
+      className={`w-full min-h-[200px] flex flex-col xl:flex-row group rounded-lg border border-gray-600 hover:bg-zinc-900  transition-all duration-300 text-white ${
+        data?.style && "xl:flex-col"
+      } `}
       onClick={() => routeHandler(data.route)}
     >
       <div className="relative basis-2/3 ">
