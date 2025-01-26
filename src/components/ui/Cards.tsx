@@ -1,9 +1,10 @@
 import { ProjectCardProps } from "@/types";
 import Image from "next/image";
 import { TechBadge } from "./Badges";
+import { usePathname } from "next/navigation";
 
 export default function ProjectCard({ data }: { data: ProjectCardProps }) {
-  const path = window.location.pathname;
+  const pathname = usePathname();
 
   return (
     <a
@@ -15,7 +16,9 @@ export default function ProjectCard({ data }: { data: ProjectCardProps }) {
       rel="noopener noreferrer"
     >
       <div
-        className={`relative ${!path?.includes("projects") && "basis-2/3"}  `}
+        className={`relative ${
+          !pathname?.includes("projects") && "basis-2/3"
+        }  `}
       >
         <Image
           src={data?.imageUrl}
