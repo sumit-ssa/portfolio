@@ -9,6 +9,14 @@ import logistics from '../../public/projects/logistics.png'
 import vilki from '../../public/projects/vilki.png'
 import happy_staff from '../../public/projects/happystaff.png'
 import infinix from '../../public/projects/infinixcrm.png'
+import aarambh from "../../public/projects/aarambh.png"
+import arham from "../../public/projects/arham.png"
+import careercomeback from "../../public/projects/careercomeback.png"
+import tutopiaAnimation from "../../public/projects/tutopia_animation.png";
+import tutopiaEdu from "../../public/projects/tutopia.png"
+import jitoraipur from "../../public/projects/jitoraipur.png"
+import naturelite from "../../public/projects/naturelite.png"
+import cosmiclady from "../../public/projects/cosmic_lady.png"
 
 export const SocialLinksData = [
     {
@@ -196,7 +204,7 @@ export const ProjectsData = [
     {
         id: 1,
         title: "Multi-Tenant Website Builder",
-        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical expertise",
+        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical. Created 500+ Websites with this system.",
         technologies: [
             { id: "js", name: "Javascript" },
             { id: "react", name: "React" },
@@ -205,7 +213,7 @@ export const ProjectsData = [
         ],
         imageUrl: mtt,
         url: "https://sumit.socialseller.in/",
-        route: "multi-tenant-website-builder"
+
     },
     {
         id: 2,
@@ -218,8 +226,8 @@ export const ProjectsData = [
             { id: "framer", name: "Framer Motion" }
         ],
         imageUrl: ssa,
-        url: "https://socialseller.in/",
-        route: "social-seller-technologies"
+        url: "https://socialseller.in/"
+
     },
     {
         id: 3,
@@ -233,7 +241,6 @@ export const ProjectsData = [
         ],
         imageUrl: vilki,
         url: "https://demo.devops.xhitiz.com/xlogistics/",
-        route: "vilki-medicart"
     },
     {
         id: 4,
@@ -247,12 +254,11 @@ export const ProjectsData = [
         ],
         imageUrl: logistics,
         url: "https://demo.devops.xhitiz.com/xlogistics/",
-        route: "x-logistics"
     },
     {
         id: 5,
         title: "Happy Staff",
-        description: "Happy Staff is a smart task management app designed to boost productivity.. It combines traditional task organization features with a unique performance and coin system. Every completed task earns you coins, These coins can be redeemed via UPI",
+        description: "Happy Staff is a smart task management app designed to boost productivity. It combines traditional task organization features with a unique performance and coin system. Every completed task earns you coins, These coins can be redeemed via UPI",
         technologies: [
             { id: "js", name: "Javascript" },
             { id: "react", name: "React" },
@@ -261,7 +267,6 @@ export const ProjectsData = [
         ],
         imageUrl: happy_staff,
         url: "https://happystaff.socialseller.in/auth",
-        route: "happy-staff"
     },
     {
         id: 6,
@@ -275,6 +280,104 @@ export const ProjectsData = [
         ],
         imageUrl: infinix,
         url: "https://infinixcrm.com/auth",
-        route: "infinix-crm"
+    },
+    {
+        id: 7,
+        title: "Aarambh Incubation",
+        description: "Aarambh Incubation and Innovation Centre is a premier co-working and co-learning start-up incubation facility.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "framer", name: "Framer Motion" }
+        ],
+        imageUrl: aarambh,
+        url: "https://aarambhincubation.in/",
+    },
+    {
+        id: 8,
+        title: "Arham Watches",
+        description: "ARHAM WATCHES VIHAAN ENTERPRISES Online is Central India's fashion hub, redefining wholesale WATCH trade with technology. We specialize in women's wear, men's wear, One of the largest Watch wholesaler in Mumbai.",
+        technologies: [
+            { id: "css3", name: "CSS3" },
+            { id: "shopify", name: "Shopify" },
+        ],
+        imageUrl: arham,
+        url: "https://arhamwatches.com/",
+    },
+    {
+        id: 9,
+        title: "Career Comeback",
+        description: "Satyam Khandelwal is a corporate professional turned career growth coach. He uses his 10+ years of industry experience to help working professionals grow fast in their careers.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "framer", name: "Framer Motion" }
+        ],
+        imageUrl: careercomeback,
+        url: "https://webinar.careercomeback.in/",
+    },
+    {
+        id: 10,
+        title: "Tutopia Animation",
+        description: "Learn everything you need to know about building a successful career in animation and gaming in this info-packed webinar.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+        ],
+        imageUrl: tutopiaAnimation,
+        url: "https://tutopia-animation.vercel.app/",
+    },
+    {
+        id: 11,
+        title: "Tutopia",
+        description: "Create your own app in your name, including high-quality animated video tutorials, MCQs, study materials, mock tests and your live classes - and you'll teach.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+        ],
+        imageUrl: tutopiaEdu,
+        url: "https://tutopia-seven.vercel.app/",
+    },
+    {
+        id: 12,
+        title: "Jito Raipur",
+        description: "JITO Raipur The Jain International Trade Organisation (JITO) is a unique, multi-stakeholder community of visionary Jain industrialists, businessmen, and professionals committed to shaping the future of the community and society at large.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: jitoraipur,
+        url: "https://jitoraipur.org/",
+    },
+    {
+        id: 13,
+        title: "Naturelite Foods",
+        description: "JITO Raipur The Jain International Trade Organisation (JITO) is a unique, multi-stakeholder community of visionary Jain industrialists, businessmen, and professionals committed to shaping the future of the community and society at large.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+            { id: "axios", name: "Axios" }
+        ],
+        imageUrl: naturelite,
+        url: "https://www.naturelitefoods.com/",
+    },
+    {
+        id: 14,
+        title: "Consmic Lady",
+        description: "Astrology Website.",
+        technologies: [
+            { id: "js", name: "Javascript" },
+            { id: "react", name: "React" },
+            { id: "tailwind", name: "Tailwind CSS" },
+        ],
+        imageUrl: cosmiclady,
+        url: "https://the-cosmic-lady.vercel.app/",
     },
 ]

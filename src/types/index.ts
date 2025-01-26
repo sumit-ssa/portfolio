@@ -42,7 +42,7 @@ export interface ProjectCardProps {
     description: string;
     imageUrl: StaticImageData;
     url: string;
-    route: string;
+    // route: string;
     style?: boolean;
 }
 
