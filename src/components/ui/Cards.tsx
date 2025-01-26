@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 export default function ProjectCard({ data }: { data: ProjectCardProps }) {
   const pathname = usePathname();
+  console.log(pathname);
 
   return (
     <a
