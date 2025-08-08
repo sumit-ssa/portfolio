@@ -34,9 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <Container> */}
         <AOSInit /> {children}
-        {/* </Container> */}
         <Footer />
       </body>
     </html>

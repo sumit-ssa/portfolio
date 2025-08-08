@@ -10,14 +10,14 @@ const Details = () => {
           data-aos="fade-up"
           data-aos-delay="150"
         >
-          Front-end developer
+          Senior Frontend developer
         </span>
-        <span className="pr-1" data-aos="fade-up" data-aos-delay="200">
+        {/* <span className="pr-1" data-aos="fade-up" data-aos-delay="200">
           From
         </span>
         <span className="pr-1" data-aos="fade-up" data-aos-delay="250">
           Raipur
-        </span>
+        </span> */}
         <br />
         <span className="pr-1" data-aos="fade-up" data-aos-delay="300">
           I Love

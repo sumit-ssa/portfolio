@@ -1,9 +1,5 @@
 const Container = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <div className="w-full max-w-[90vw] xl:max-w-[80vw] mx-auto">
-      {children}
-    </div>
-  );
+  return <div className="w-full max-w-7xl mx-auto px-2">{children}</div>;
 };
 
 export default Container;

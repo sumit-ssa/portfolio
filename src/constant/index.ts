@@ -240,7 +240,7 @@ export const ProjectsData = [
             { id: "Redux", name: "Redux" }
         ],
         imageUrl: vilki,
-        url: "https://demo.devops.xhitiz.com/xlogistics/",
+        url: "https://vilkimedicart.com/",
     },
     {
         id: 4,

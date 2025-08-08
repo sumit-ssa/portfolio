@@ -6,7 +6,7 @@ import Work from "@/components/cv/Work";
 
 const Cv = () => {
   return (
-    <div className="min-h-screen mt-14">
+    <div className="min-h-screen my-14">
       <div className="max-w-xl mx-auto space-y-10">
         {/* Header Section */}
         <Header />

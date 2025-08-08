@@ -12,7 +12,7 @@ const Intro = () => {
         A
       </span>
       <span className="pr-1" data-aos="fade-up" data-aos-delay="150">
-        Self-thaugh
+        Self-taught
       </span>
       <span className="pr-1" data-aos="fade-up" data-aos-delay="200">
         front-end developer

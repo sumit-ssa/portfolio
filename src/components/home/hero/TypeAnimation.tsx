@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 const TypingAnimation = () => {
   return (
     <div
-      className="py-4 text-2xl xl:text-4xl font-semibold capitalize text-gray-600 "
+      className="py-4 text-2xl xl:text-4xl font-semibold capitalize text-gray-400 "
       data-aos="fade-up"
       data-aos-duration="400"
     >
