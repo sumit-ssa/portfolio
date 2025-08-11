@@ -2,6 +2,7 @@ import { Github, Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react"
 import universityLogo1 from '../../public/PTRSU_logo.png'
 import universityLogo2 from '../../public/kalinga.png'
 import ssaLogo from '../../public/ssa_logo.png'
+import yugasaLogo from '../../public/yugasa-logo.png'
 import xhitizLogo from '../../public/xhitizLogo.png'
 import mtt from '../../public/projects/mtt.png'
 import ssa from '../../public/projects/ssa.png'
@@ -76,21 +77,32 @@ export const EducationData = [
 
 export const ExperienceData = [
     {
-        id: 1,
+        id: 5,
+        logo: yugasaLogo,
+        name: "Yugasa Software Labs",
+        course: "Senior Frontend Developer",
+        location: "Gurgaon, Haryana, India",
+        showRightSide: true,
+        startDate: "March 2025",
+        endDate: "Present",
+        info: `AI Tender Management System – Building an AI-based platform to discover tenders, extract key information, and auto-generate required documents.`
+    },
+    {
+        id: 4,
         logo: ssaLogo,
         name: "Social Seller Technologies",
         course: "Team Leader",
         location: "Raipur, Chhattisgarh, India",
         showRightSide: true,
         startDate: "July 2024",
-        endDate: "Present",
-        // duration: "6 Months",
+        endDate: "February 2025",
+        duration: "6 Months",
         info: `As a technical leader & Senior Frontend Developer, I orchestrated the design and development of mission-critical bidding systems, encompassing robust back-end, 
         front-end, and mobile applications. My strategic oversight ensured seamless functionality and high performance across all platforms. 
         I led and mentored a high-performing team through various complex software development projects, aligning our technical to consistently delivering high-quality solutions.`
     },
     {
-        id: 2,
+        id: 3,
         logo: ssaLogo,
         name: "Social Seller Technologies",
         course: "Senior Frontend Developer",
@@ -104,7 +116,7 @@ export const ExperienceData = [
         driving projects from ideation to production, and ensuring the seamless integration of design and functionality. My expertise includes developing modern web applications using cutting-edge technologies, optimizing front-end performance, and maintaining code quality through best practices.`
     },
     {
-        id: 3,
+        id: 2,
         logo: xhitizLogo,
         name: "Xhitiz IT Solutions",
         course: "Junior Frontend Developer",
@@ -117,7 +129,7 @@ export const ExperienceData = [
 
     },
     {
-        id: 4,
+        id: 1,
         logo: xhitizLogo,
         name: "Xhitiz IT Solutions",
         course: "Internship",

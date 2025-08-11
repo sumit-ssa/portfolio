@@ -14,6 +14,8 @@ export const CareerPathDesktop = () => {
     </svg>
   );
 };
+
+
 export const CareerPathPhone = () => {
   return (
     <svg

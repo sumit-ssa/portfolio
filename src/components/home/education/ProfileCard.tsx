@@ -42,7 +42,7 @@ const ProfileCard = ({ data }: { data: ProfileProps }) => {
               </span>
             )}
           </h2>
-          <p className="text-base text-gray-400 font-medium">{data?.course}</p>
+          <p className="text-base text-blue-400 font-medium">{data?.course}</p>
           <p className="text-sm text-gray-500">{data?.location}</p>
           <div
             className={`mt-2 w-full overflow-hidden capitalize text-gray-300 transition-all duration-700 ease-linear  ${
