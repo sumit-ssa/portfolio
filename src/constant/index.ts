@@ -4,7 +4,6 @@ import universityLogo2 from '../../public/kalinga.png'
 import ssaLogo from '../../public/ssa_logo.png'
 import yugasaLogo from '../../public/yugasa-logo.png'
 import xhitizLogo from '../../public/xhitizLogo.png'
-import mtt from '../../public/projects/mtt.png'
 import ssa from '../../public/projects/ssa.png'
 import logistics from '../../public/projects/logistics.png'
 import vilki from '../../public/projects/vilki.png'
@@ -213,22 +212,9 @@ export const StudyData = [
 ]
 
 export const ProjectsData = [
-    {
-        id: 1,
-        title: "Multi-Tenant Website Builder",
-        description: "A multi-tenant website builder, a scalable and user-friendly platform that empowers businesses and individuals to create fully customized websites without technical. Created 500+ Websites with this system.",
-        technologies: [
-            { id: "js", name: "Javascript" },
-            { id: "react", name: "React" },
-            { id: "tailwind", name: "Tailwind CSS" },
-            { id: "axios", name: "Axios" }
-        ],
-        imageUrl: mtt,
-        url: "https://sumit.socialseller.in/",
 
-    },
     {
-        id: 2,
+        id: 13,
         title: "Social Seller Technologies Website",
         description: "Social seller Academy, a one-stop-destination for all digital needs, which educate people about the vast opportunities in online selling in India. This website is entry point of websites builter",
         technologies: [
@@ -242,7 +228,7 @@ export const ProjectsData = [
 
     },
     {
-        id: 3,
+        id: 12,
         title: "Vilki Medicart",
         description: "A billing software platform designed to streamline B2B transactions for both retailers and wholesalers. Transforming Pharmaceutical Sector Across Bharat",
         technologies: [
@@ -255,7 +241,7 @@ export const ProjectsData = [
         url: "https://vilkimedicart.com/",
     },
     {
-        id: 4,
+        id: 11,
         title: "XLogistics Website",
         description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
         technologies: [
@@ -268,7 +254,7 @@ export const ProjectsData = [
         url: "https://demo.devops.xhitiz.com/xlogistics/",
     },
     {
-        id: 5,
+        id: 10,
         title: "Happy Staff",
         description: "Happy Staff is a smart task management app designed to boost productivity. It combines traditional task organization features with a unique performance and coin system. Every completed task earns you coins, These coins can be redeemed via UPI",
         technologies: [
@@ -281,7 +267,7 @@ export const ProjectsData = [
         url: "https://happystaff.socialseller.in/auth",
     },
     {
-        id: 6,
+        id: 9,
         title: "Infinix CRM",
         description: "Smart Solution from pickup to destination, XLogistics is the leading digital road freight platform. Clients can book, track and pay for all types of cargo transportation across the island. ",
         technologies: [
@@ -294,7 +280,7 @@ export const ProjectsData = [
         url: "https://infinixcrm.com/auth",
     },
     {
-        id: 7,
+        id: 8,
         title: "Aarambh Incubation",
         description: "Aarambh Incubation and Innovation Centre is a premier co-working and co-learning start-up incubation facility.",
         technologies: [
@@ -307,7 +293,7 @@ export const ProjectsData = [
         url: "https://aarambhincubation.in/",
     },
     {
-        id: 8,
+        id: 7,
         title: "Arham Watches",
         description: "ARHAM WATCHES VIHAAN ENTERPRISES Online is Central India's fashion hub, redefining wholesale WATCH trade with technology. We specialize in women's wear, men's wear, One of the largest Watch wholesaler in Mumbai.",
         technologies: [
@@ -318,7 +304,7 @@ export const ProjectsData = [
         url: "https://arhamwatches.com/",
     },
     {
-        id: 9,
+        id: 6,
         title: "Career Comeback",
         description: "Satyam Khandelwal is a corporate professional turned career growth coach. He uses his 10+ years of industry experience to help working professionals grow fast in their careers.",
         technologies: [
@@ -331,7 +317,7 @@ export const ProjectsData = [
         url: "https://webinar.careercomeback.in/",
     },
     {
-        id: 10,
+        id: 5,
         title: "Tutopia Animation",
         description: "Learn everything you need to know about building a successful career in animation and gaming in this info-packed webinar.",
         technologies: [
@@ -343,7 +329,7 @@ export const ProjectsData = [
         url: "https://tutopia-animation.vercel.app/",
     },
     {
-        id: 11,
+        id: 4,
         title: "Tutopia",
         description: "Create your own app in your name, including high-quality animated video tutorials, MCQs, study materials, mock tests and your live classes - and you'll teach.",
         technologies: [
@@ -355,7 +341,7 @@ export const ProjectsData = [
         url: "https://tutopia-seven.vercel.app/",
     },
     {
-        id: 12,
+        id: 3,
         title: "Jito Raipur",
         description: "JITO Raipur The Jain International Trade Organisation (JITO) is a unique, multi-stakeholder community of visionary Jain industrialists, businessmen, and professionals committed to shaping the future of the community and society at large.",
         technologies: [
@@ -368,7 +354,7 @@ export const ProjectsData = [
         url: "https://jitoraipur.org/",
     },
     {
-        id: 13,
+        id: 2,
         title: "Naturelite Foods",
         description: "JITO Raipur The Jain International Trade Organisation (JITO) is a unique, multi-stakeholder community of visionary Jain industrialists, businessmen, and professionals committed to shaping the future of the community and society at large.",
         technologies: [
@@ -381,7 +367,7 @@ export const ProjectsData = [
         url: "https://www.naturelitefoods.com/",
     },
     {
-        id: 14,
+        id: 1,
         title: "Consmic Lady",
         description: "Astrology Website.",
         technologies: [

@@ -5,7 +5,7 @@ import Name from "./Name";
 import TypingAnimation from "./TypeAnimation";
 import Social from "./Social";
 import { useRouter } from "next/navigation";
-import Threads from "@/components/ui/Threads";
+// import Threads from "@/components/ui/Threads";
 
 const Hero = () => {
   const router = useRouter();
@@ -16,9 +16,9 @@ const Hero = () => {
 
   return (
     <section className="relative mt-16 xl:mt-20 flex flex-col gap-10">
-      <div className="absolute mb-24  inset-0 ">
+      {/* <div className="absolute mb-24  inset-0 ">
         <Threads amplitude={1.5} distance={0} enableMouseInteraction={false} />
-      </div>
+      </div> */}
 
       <div className="max-w-5xl mx-auto flex flex-col justify-center items-center gap-2 xl:gap-6">
         <Name />
